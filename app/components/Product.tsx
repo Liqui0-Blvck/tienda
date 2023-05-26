@@ -8,7 +8,6 @@ type Props = {
 const Product = ({product}: Props) => {
   return (
     <Link
-      prefetch={false}
       href={`/product/${product.id}`} 
       className='flex flex-col border h-96 p-5 group hover:scale-105 transition-transform ease duration-200'>
         <div className='relative max-h-72 flex-1'>
